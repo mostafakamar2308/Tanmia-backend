@@ -1,0 +1,43 @@
+{
+  "sEmptyTable": "לא נמצאו נתונים בטבלה",
+  "sLoadingRecords": "טוען...",
+  "sProcessing": "מעבד...",
+  "sLengthMenu": "הצג _MENU_ רשומות",
+  "sZeroRecords": "לא נמצאו רשומות מתאימות",
+      "sInfo": "מציג _START_ עד _END_ מתוך _TOTAL_ רשומות",
+  "sInfoEmpty": "מציג 0 עד 0 מתוך 0 רשומות",
+  "sInfoFiltered": "(מסונן מסך _MAX_  רשומות)",
+  "sSearch": "חפש: ",
+  "oPaginate": {
+    "sFirst": "ראשון",
+    "sPrevious": "קודם",
+    "sNext": "הבא",
+    "sLast": "אחרון"
+  },
+  "oAria": {
+    "sSortAscending": ": סידור עולה",
+    "sSortDescending": ": סידור יורד"
+  },
+  "select": {
+    "rows": {
+      "_": "%d שורות נבחרו",
+      "0": "",
+      "1": "1 שורה נבחרה"
+    }
+  },
+  "buttons": {
+    "print": "הדפס",
+    "colvis": "הצגת עמודות",
+    "copy": "העתק",
+    "copyTitle": "העתקה ללוח",
+    "copyKeys": "לחץ ctrl או ‎⌘ + C כדי להעתיק את הטבלה ללוח העריכה. ‎⎋ כדי לבטל את הפעולה.",
+    "copySuccess": {
+      "_": "%d שורות הועתקו ללוח,",
+      "1": "1 שורה הועתקה ללוח"
+    },
+    "pageLength": {
+      "-1": "הצג הכל",
+      "_": "הצג %d שורות"
+    }
+  }
+}

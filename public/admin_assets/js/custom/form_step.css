@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+html * {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    justify-content: center;
+    text-align: center;
+    background-color: gainsboro;
+}
+div.progress-bar {
+    transition: width 0.3s ease;
+}
+div.progress-icon {
+    transition: all 0.25s ease;
+    user-select: none;
+}
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(0.8);
+    }
+    55% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+div.progress-icon.active {
+    transition: all 0.25s ease;
+    background-color: var(--info) !important;
+    color: white !important;
+}
+div.progress-icon:hover {
+    transition: all 0.25s ease;
+    background-color: var(--warning) !important;
+    color: white !important;
+}
+.multi-step-form {
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 600px;
+}
+.form-container {
+    border-radius: 15px;
+    margin: auto;
+    background-color: #fafafa;
+    padding: 30px 50px;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #cdcdcd;
+    border-radius: 0px;
+}
+.form-control:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.floating-label-container {
+    margin-top: 20px;
+}
+.floating-label {
+    pointer-events: none;
+    position: absolute;
+    transform: translateX(-50%);
+    margin-top: 8px;
+    z-index: 1;
+    color: gray;
+    transition: all 0.15s ease-out;
+}
+.floating-label.active {
+    margin-top: 0px;
+    font-size: smaller;
+    transform: translate(-50%, -60%);
+}
+input {
+    text-align: center;
+}
+.multi-step-form .progress {
+    overflow: visible;
+}
+.multi-step-form .progress.seen {
+    transition: all 0ms ease 300ms;
+    background-color: #8fb4dd;
+}
+.multi-step-form .progress .progress-bar {
+    overflow: visible;
+}
+.multi-step-form .form-container {
+    transform: scale(1);
+}
